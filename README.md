@@ -1,4 +1,4 @@
-# LÖVE-Poi-Gioca-3
+# LÖVE Poi Gioca 3
 This is the updated version of the LÖVE Poi Gioca ECS.
 It is made to be simple but effective.
 Poi was just my attempt at making an ECS at first but it's become a lot larger.

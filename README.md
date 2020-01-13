@@ -28,14 +28,14 @@ poi.newPool(name, requires, requiresAny, requiresOne, tbl)
 
 Create an entity
 ```LUA
-ecs.newEntity(components)
+poi.newEntity(components)
 -- the components are the components that are added to the entity
 -- this returns the entities id and the entity itself (only the id should be stored)
 ```
 
 To call any callbacks in pools and systems
 ```LUA
-ecs.globalCall(funct, ...)
+poi.globalCall(funct, ...)
 -- funct is a string that is to be called
 -- the following arguments are any values to be passed to the callbacks when called
 -- this will call the 'iterateFunct' for each entity in a pool
